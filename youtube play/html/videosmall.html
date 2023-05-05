@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="/css/youtube.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="full">
+        <header class="header">
+            <div class="header-container">
+                <div class="bars">
+                    <i class="fa-solid fa-bars fa-2xs"></i>
+                </div>
+
+                <div class="img">
+                    <a href="/html/trangchuyoutube.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="" width="33"
+                            height="30"></a>
+                </div>
+                <h5 class="title">Youtube</h5>
+            </div>
+            <div class="seach">
+                <span class="seach"><input type="text" placeholder=" Tìm kiếm" /></span>
+                <i id="glass" class="fa-solid fa-magnifying-glass fa-2xs"></i>
+                <div class="micro">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="icon">
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <a href="/html/formdangnhap.html"><img
+                            src="https://kenh14cdn.com/203336854389633024/2022/12/29/photo-12-16723014612472105260477.jpg"
+                            alt="" width="27" height="27"></a>
+                </div>
+            </div>
+        </header>
+        <div class="play-container">
+            <div class="row">
+                <div>
+                    <iframe id="video" width="955" height="430" src="https://www.youtube.com/embed/_fghQ0axjSo"
+                        title="Lâu Lâu Nhắc Lại | Hà Nhi ft Khói | Official Music Video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div id="tieude" class="font-size">
+                        Cùng Đi Cùng Đi Ngàn Năm Về Sau .. ♫ Nhạc Lofi
+                    </div>
+                    <div class="play-video-info">
+                        <p> 1tr lượt xem &bull; 1 năm trước</p>
+                        <ul class="video_info-social">
+                            <li class="video_info-social-item">
+                                <i class="fa-regular fa-thumbs-up like-click-change"></i>
+                                <span class="amount_like-click-change">542</span>
+                                <div class="info_info-right-line line-click-change"></div>
+                                <span class="like-up-down"></span>
+                            </li>
+                            <li class="video_info-social-item dislike-click-main">
+                                <i class="fa-regular fa-thumbs-down dislike-click-change"></i>
+                                <span class="amount-dislike-click-change">0</span>
+                                <span class="dislike-up-down"></span>
+                            </li>
+                            <li class="video_info-social-item video_info-share">
+                                <i class="fa-solid fa-share-from-square video_icon-right "></i>
+                                <span class="video_info-decs-right"> Chia sẻ</span>
+                            </li>
+
+                            <li class="video_info-social-item video_info-save">
+                                <i class="fa-solid fa-folder video-icon-right"></i>
+                                <span class="video_info-decs-right"> Lưu </span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <hr>
+                    <div class="phubliser">
+                        <a href=""><img src="/1.jpeg" alt=""></a>
+                        <div>
+                            <p id="kenh"><b>Rikkei Academy</b></p>
+                            <span>110N Người đăng ký</span>
+                            <button type="button"> Đăng ký</button>
+                        </div>
+
+                    </div>
+                    <div class="comment">
+                        <div> 1 bình luận </div>
+                        <span> <i class="fa-solid fa-bars"></i>Sắp xếp theo </span>
+
+                    </div>
+                    <div class="add-comment">
+                        <img src="https://kenh14cdn.com/203336854389633024/2022/12/29/photo-12-16723014612472105260477.jpg"
+                            alt="">
+
+                        <input type="text" placeholder="Viết bình luận" id="input-cmt">
+                        <div class="add-comment-btn" id="feedback-form">
+                            <button class="btn-cancel">Hủy</button>
+                            <button class="btn-cmt" id="btn-cmt">Bình luận</button>
+                        </div>
+
+                    </div>
+                    <div id="comment">
+                        <div class="video-list-comment">
+                            <img src="https://kenh14cdn.com/203336854389633024/2022/12/29/photo-12-16723014612472105260477.jpg"
+                                alt="">
+                            <div class="video-comment-all ">
+                                <div class="video-comment">
+                                    <div class="video-comment-name">
+                                        f8 Official
+                                    </div>
+                                    <div class="video-comment-date">
+                                        1 ngày trước
+                                    </div>
+                                </div>
+                                <ul class="comment">
+                                    <li> Hay quá !!! </li>
+                                    <li>❤❤❤</li>
+                                </ul>
+                                <div class="comment-item">
+                                    <span> <i class="fa-regular fa-thumbs-up"></i></span>
+                                    <span><i class="fa-regular fa-thumbs-down"></i></span>
+                                    <span>Phản hồi</span>
+                                    <!-- <span><button class="edit-comment" onclick="editComment(this)">Chỉnh
+                                            sửa</button></span> -->
+                                    <span>Chỉnh sửa</span>
+                                    <span class="delete-comment">Xóa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <div class="side-video-list">
+                        <a href="/html/videosmall.html" class="small-video"><iframe id="video" width="185" height="110"
+                                src="https://www.youtube.com/embed/_fghQ0axjSo"
+                                title="Lâu Lâu Nhắc Lại | Hà Nhi ft Khói | Official Music Video" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+
+                        </a>
+                        <div class="time">2:02:43</div>
+                        <div class="vid-info">
+                            <a href="/html/videosmall.html">Lâu lâu nhắc lại | Hà Nhi ft Khói | Official Music Video
+                            </a>
+                            <p>Rikkei Academy</p>
+                            <p>10k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width=" 185" height="110"
+                                src="https://www.youtube.com/embed/WRfFhZqc5gk"
+                                title="F8 có gì mới trong lần trở lại này?" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="time">2:02:11</div>
+                        <div class="vid-info">
+                            <a href="#">F8 có gì mới trong lần trở lại này? hãy cùng đón xem</a>
+                            <p>F8</p>
+                            <p>100k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/EKDKB-ZbxPY"
+                                title="Dù Hai Ta Già Đi Và Dù Hai Ta Già Đi..Là Anh Lofi | Nhạc Chill TikTok - Nhạc Lofi Chill Buồn 2023"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <p><a href="#">Dù Hai Ta Già Đi Và Dù Hai Ta Già Đi..Là Anh Lofi</a></p>
+                            <p>Nhạc trẻ</p>
+                            <p>1tr Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/y-nOAx0FbKk"
+                                title="Thời Gian Sẽ Trả Lời Remix x Yêu 5 Hot TikTok, Rồi Phải Đến Lúc Em Đổi Khác Đi 🎵 Hot Trend Tiktok"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Thời Gian Sẽ Trả Lời Remix x Yêu 5 Hot TikTok</a>
+                            <p>Nhạc Hay</p>
+                            <p>114k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/q_0xeZNj65s"
+                                title="BẬT TÌNH YÊU LÊN ( TĂNG DUY TÂN )  - NHẠC HOT TIKTOK HIỆN NAY" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Bật Tình Yêu Lên ( Tăng Duy Tân) </a>
+                            <p>Rikkei Academy</p>
+                            <p>153k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/R6plN3FvzFY?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz"
+                                title="Nhận được gì sau khóa học? | Học lập trình web cơ bản | Tự học lập trình online"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Học lập trình web cơ bản | Tự học lập trình online</a>
+                            <p>F8</p>
+                            <p>105k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/enC0xKomr0I"
+                                title="Onsite sang Nhật Bản liệu có khó? Lời chia sẻ của người từng trải | Rikkei Academy"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Lời chia sẻ của người từng trải | Rikkei Academy</a>
+                            <p>Rikkei Academy</p>
+                            <p>15k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/tXDPjOMxL8g"
+                                title="Uẩn khúc trong câu chuyện của nữ sinh Nghệ An | TỔ BUÔN 247 (20/04/2023)"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Uẩn khúc trong câu chuyện của nữ sinh Nghệ An | TỔ BUÔN 247 </a>
+                            <p>Tuấn Tiền Tỉ</p>
+                            <p>15k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/-kqz-mE2WI4"
+                                title="Tiêu Điểm: Ứng phó với COVID-19 trong mùa lễ hội | VTV24" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Tiêu Điểm: Ứng phó với COVID-19 trong mùa lễ hội | VTV24</a>
+                            <p>VTV 24</p>
+                            <p>15k Veiws</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="" class="small-video"><iframe width="185" height="110"
+                                src="https://www.youtube.com/embed/lGZo4lwU0SI"
+                                title="Nhất Trên Đời (Orinn Remix) - VAnh | Tay Này Hôn Đi Chứ Đừng Lặng Im Remix TikTok Hay Nhất 2023"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></a>
+                        <div class="vid-info">
+                            <a href="#">Nhất Trên Đời (Orinn Remix) - VAnh | </a>
+                            <p>Nhạc remix</p>
+                            <p>15k Veiws</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- hiển thị chia sẻ khi click  -->
+    <div class="video_box-share">
+        <div class="video-box-share-content">
+            <div class="video_box-share-title">
+                <div class="video_box-share-title-left">
+                    <h4>Chia sẻ</h4>
+                </div>
+                <div class="video_box-share-title-right">
+                    <i class="fa-solid fa-xmark bxf-x"></i>
+                </div>
+            </div>
+            <div class="video-box-list-social">
+                <ul class="video_box-share-social">
+                    <li class="video_box-share-social-item video_box-share-social-item-code">
+                        <i class="fa-solid fa-forward"></i>
+                    </li>
+                    <li class="video_box-share-social-item video_box-share-social-item-facebooks">
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>
+                    <li class="video_box-share-social-item video_box-share-social-item-whats_app">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </li>
+                    <li class="video_box-share-social-item video_box-share-social-item-twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li class="video_box-share-social-item video_box-share-social-item-email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </li>
+                    <li class="video_box-share-social-item video_box-share-social-item-github">
+                        <i class="fa-brands fa-github"></i>
+                    </li>
+                </ul>
+                <ul class="video_box-share-social-content">
+                    <p class="video_box-share-social-content-desc">Nhúng</p>
+                    <p class="video_box-share-social-content-desc">Facebook</p>
+                    <p class="video_box-share-social-content-desc">WhatsAPP</p>
+                    <p class="video_box-share-social-content-desc">Twitter</p>
+                    <p class="video_box-share-social-content-desc">Email</p>
+                    <p class="video_box-share-social-content-desc">Github</p>
+                </ul>
+            </div>
+            <div class="video-box-share-link">
+                <p class="video-box-share-link-main">
+                    https://www.youtube.com/watch?v=WRfFhZqc5gk
+                </p>
+                <h4 class="video-box-share-link-copy"> Sao chép</h4>
+            </div>
+            <div class="video-box-share-input">
+                <input type="checkbox" name id class="share-input">
+                <p class="video-box-share-input-title"> Bắt đầu tại</p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/youtube.js"></script>
+</body>
+
+</html>

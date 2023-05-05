@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-container .bars {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.header .header-container {
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-container .img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.header .seach {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .seach #glass {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 2px;
+}
+
+.header .seach .micro:hover {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.header .seach .micro {
+    margin-left: 20px;
+    font-size: 14px
+}
+
+.header .seach input {
+    border-radius: 25px;
+    padding: 7px;
+    width: 380px;
+}
+
+.header .seach button {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.header .user .icon {
+    margin-right: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    opacity: 0.7;
+}
+
+.header .user .icon i {
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.header .user .icon .user-a img {
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+/* .header .user .icon :hover {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5px;
+} */
+
+.nav_container {
+    height: calc(100vh - 30px);
+    width: 200px;
+    padding: 20px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+
+}
+
+.nav_container .list-item i {
+    margin-right: 10px;
+}
+
+/* .nav_container .list-item img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+ */
+
+.nav-link {
+    padding: 10px;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(250, 247, 247);
+    border-radius: 7px;
+}
+
+.nav_center {
+    position: absolute;
+    left: 250px;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: space-between;
+    gap: 20px;
+}
+
+.nav_center #btn {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.nav_center #btn:hover {
+    background-color: rgb(183, 170, 170);
+}
+
+.right-sidebar {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 250px;
+    top: 150px;
+}
+
+.right-sidebar .side-video-list iframe {
+    border-radius: 10px;
+}
+
+.right-sidebar .side-video-list {
+    width: 350px;
+}
+
+.right-sidebar .side-video-list P {
+    font-size: 14px;
+}
+
+.small-sidebar {
+    width: 5%;
+}
+
+.small-sidebar span {
+    display: none;
+}
+
+.small-sidebar hr {
+    display: none;
+}

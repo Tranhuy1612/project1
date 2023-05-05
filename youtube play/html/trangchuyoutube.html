@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="/css/trangchuyoutube.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+    <!-- header-------------------------------------- -->
+    <header class="header">
+        <div class="header-container">
+            <div class="bars">
+                <i class="fa-solid fa-bars fa-2xs"></i>
+            </div>
+            <div class="img">
+                <a href="/html/trangchuyoutube.html"> <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+                        alt="" width="30" height="30"></a>
+            </div>
+            <h5 class="title">Youtube</h5>
+        </div>
+        <div class="seach">
+            <span class="seach"><input type="text" placeholder=" Tìm kiếm" /></span>
+            <i id="glass" class="fa-solid fa-magnifying-glass fa-2xs"></i>
+            <div class="micro">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+
+        <div class="user">
+            <div class="icon">
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-regular fa-bell"></i>
+                <a class="user-a" href="/html/formdangki.html"><img
+                        src="https://kenh14cdn.com/203336854389633024/2022/12/29/photo-12-16723014612472105260477.jpg"
+                        alt="" width="27" height="27"></a>
+            </div>
+        </div>
+    </header>
+    <!-- nav------------------- ----------->
+    <!-- side bars --------------->
+    <nav class="nav_container">
+        <div class="list-item">
+            <a href="#" class="nav-link"><i class="fa-solid  fa-house"></i>
+                <span> Trang chủ </span>
+            </a>
+            <a href="#" class="nav-link"><i class="fa-solid fa-caret-up"></i>
+                <span> Shorts</span>
+            </a>
+            <a href="#" class="nav-link"><i class="fa-solid fa-brands fa-youtube"></i>
+                <span> Kênh đăng ký</span>
+            </a>
+            <hr>
+            <a href="#" class="nav-link"><i class="fa-solid fa-address-book"></i>
+                <span> Thư viện</span>
+            </a>
+            <a href="#" class="nav-link"><i class="fa-solid fa-thumbs-up"></i>
+                <span> Video đã thích</span>
+            </a>
+            <a href="/html/lichsudaxem.html" class="nav-link"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></i>
+                <span> Video đã xem</span>
+            </a>
+            <a href="#" class="nav-link"><i class="fa-solid fa-compass"></i>
+                <span> tổng hợp</span>
+            </a>
+            <hr>
+            <span> Kênh đăng ký</span>
+            <a href="#" class="nav-link">
+                <!-- <img src="https://kenh14cdn.com/203336854389633024/2022/12/29/photo-12-16723014612472105260477.jpg"> -->
+                <span>phim hài</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>F8 Official</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Rikkei</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Thư viện lập trình</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Nodemy</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>liên quân Mobile</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>VTV24</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Rikkei Academy</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Nhạc trẻ</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Nhạc buồn</span>
+            </a>
+            <a href="#" class="nav-link">
+                <span>Tuấn tiền tỉ</span>
+            </a>
+        </div>
+    </nav>
+    <!-- side bars end ------- -->
+
+    <!-- filters  ------- -->
+    <div class="nav_center">
+        <button type="button" class="nav_center_list" id="btn">Tất cả</button>
+        <button type="button" class="nav_center_list" id="btn">Âm nhạc</button>
+        <button type="button" class="nav_center_list" id="btn">Trò chơi</button>
+        <button type="button" class="nav_center_list" id="btn">Game Mobile</button>
+        <button type="button" class="nav_center_list" id="btn">Tin tức</button>
+        <button type="button" class="nav_center_list" id="btn">Hoạt họa</button>
+        <button type="button" class="nav_center_list" id="btn">Trực tiếp</button>
+        <button type="button" class="nav_center_list" id="btn">Nấu ăn</button>
+        <button type="button" class="nav_center_list" id="btn">Đố vui</button>
+        <button type="button" class="nav_center_list" id="btn">Phim</button>
+        <button type="button" class="nav_center_list" id="btn">Kịch</button>
+        <button type="button" class="nav_center_list" id="btn">Tổng hợp</button>
+        <button type="button" class="nav_center_list" id="btn">Tiếng nhật</button>
+    </div>
+    <!-- filters end  ------- -->
+    <div id="main" class="right-sidebar">
+        <!-- <div class="side-video-list">
+            <a href="/html/youtube.html" class="small-video"><iframe width="350" height="200"
+                    src="https://www.youtube.com/embed/_fghQ0axjSo"
+                    title="Lâu Lâu Nhắc Lại | Hà Nhi ft Khói | Official Music Video" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="/html/youtube.html">Lâu Lâu Nhắc Lại | Hà Nhi ft Khói </a>
+                <p>Nhạc trẻ</p>
+                <p>151N lượt xem &bull; 5 Tháng trước</p>
+            </div>
+        </div>
+        <div class="side-video-list">
+            <a href="" class="small-video"><iframe width="350" height="200"
+                    src="https://www.youtube.com/embed/K4tmy9PK4Is"
+                    title="Cùng Đi Cùng Đi Ngàn Năm Về Sau Mình Vẫn Có Nhau.. Là Anh Lofi ♫ Nhạc Lofi Chill Hot TikTok 2023"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="#"> Là Anh Lofi ♫ Nhạc Lofi Chill Hot TikTok 2023</a>
+                <p>Nhạc hay</p>
+                <p>148N lượt xem &bull; 1 Tháng trước</p>
+            </div>
+        </div>
+        <div class="side-video-list">
+            <a href="" class="small-video"><iframe width=" 350" height="200"
+                    src="https://www.youtube.com/embed/WRfFhZqc5gk" title="F8 có gì mới trong lần trở lại này?"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="#">F8 có gì mới trong lần trở lại này? </a>
+                <p>F8 Official</p>
+                <p>15N lượt xem &bull; 1 Tháng trước</p>
+            </div>
+        </div>
+        <div class="side-video-list">
+            <a href="" class="small-video"><iframe width="350" height="200"
+                    src="https://www.youtube.com/embed/EKDKB-ZbxPY"
+                    title="Dù Hai Ta Già Đi Và Dù Hai Ta Già Đi..Là Anh Lofi | Nhạc Chill TikTok - Nhạc Lofi Chill Buồn 2023"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="#"> Nhạc Chill TikTok - Nhạc Lofi Chill Buồn 2023</a>
+                <p>Nhạc buồn</p>
+                <p>573N lượt xem &bull; 5Tháng trước</p>
+            </div>
+        </div>
+        <div class="side-video-list">
+            <a href="" class="small-video"><iframe width="350" height="200"
+                    src="https://www.youtube.com/embed/y-nOAx0FbKk"
+                    title="Thời Gian Sẽ Trả Lời Remix x Yêu 5 Hot TikTok, Rồi Phải Đến Lúc Em Đổi Khác Đi 🎵 Hot Trend Tiktok"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="#">Thời Gian Sẽ Trả Lời Remix x Yêu 5 Hot TikTok</a>
+                <p>Nhạc remix</p>
+                <p>199N lượt xem &bull; 2Tháng trước</p>
+            </div>
+        </div>
+        <div class="side-video-list">
+            <a href="" class="small-video"><iframe width="350" height="200"
+                    src="https://www.youtube.com/embed/q_0xeZNj65s"
+                    title="BẬT TÌNH YÊU LÊN ( TĂNG DUY TÂN )- NHẠC HOT TIKTOK HIỆN NAY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></a>
+            <div class="vid-info">
+                <a href="#">BẬT TÌNH YÊU LÊN - TĂNG DUY TÂN </a>
+                <p>Nhạc hay</p>
+                <p>77N lượt xem &bull; 1 Tháng trước</p>
+            </div>
+        </div> -->
+
+    </div>
+    <!-- a video Ends -->
+    <script src="/js/trangchuyoutube.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!--  phu luc-->
+<!-- [{
+    id: 0,
+    link: "https://www.youtube.com/embed/_fghQ0axjSo",
+    name: " Lâu Lâu Nhắc Lại | Hà Nhi ft Khói",
+    kenh: "Nhạc buồn",
+},
+{
+    id: 1,
+    link: "https://www.youtube.com/embed/K4tmy9PK4Is",
+    name: "Là Anh Lofi ♫ Nhạc Lofi Chill Hot TikTok 2023",
+    kenh: "Nhạc Remix",
+},
+{
+    id: 2,
+    link: "https://www.youtube.com/embed/WRfFhZqc5gk",
+    name: "F8 có gì mới trong lần trở lại này?",
+    kenh: "Nhạc Remix",
+},
+{
+    id: 3,
+    link: "https://www.youtube.com/embed/EKDKB-ZbxPY",
+    name: "BẬT TÌNH YÊU LÊN ( TĂNG DUY TÂN x HÒA MINZY ) - RÓT MẬT NGỌT VÀO TAI EM - NHẠC HOT TIKTOK HIỆN NAY",
+    kenh: "Nhạc Remix",
+},
+{
+    id: 4,
+    link: "https://www.youtube.com/embed/y-nOAx0FbKk",
+    name: "Thời Gian Sẽ Trả Lời Remix x Yêu 5 Hot TikTok",
+    kenh: "Nhạc Remix",
+},
+{
+    id: 5,
+    link: "https://www.youtube.com/embed/q_0xeZNj65s",
+    name: "BẬT TÌNH YÊU LÊN - TĂNG DUY TÂN ",
+    kenh: "Nhạc Remix",
+}]; -->

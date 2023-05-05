@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formdangki.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    </link>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="dangki()">
+
+            <div class="form-control ">
+                <input id="username" type="text" placeholder="Tên đăng nhập">
+                <small> </small>
+                <span></span>
+            </div>
+            <div class="form-control ">
+                <input id="email" type="text" placeholder="Email">
+                <small> </small>
+                <span></span>
+            </div>
+            <div class="form-control ">
+                <input id="password" type="text" placeholder="Mật khẩu">
+                <small> </small>
+                <span></span>
+            </div>
+            <div class="form-control ">
+                <input id="confirm-password" type="text" placeholder="Nhập lại mật khẩu">
+                <small> </small>
+                <span></span>
+
+            </div>
+            <button type="submit" class="btn-submit">Đăng kí</button>
+            <div class="signup-link">
+                Bạn đã có tài khoản ! <a href="/html/formdangnhap.html">Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+    <script src="/js/formdangki.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
